@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.header-img {
+.header__img {
   width: 100%;
 }
-.header .more-inf {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 @media (max-width: 768px) {
@@ -121,12 +121,12 @@
 .item > .input[type="text"] {
   width: 226px;
 }
-.button.delete .remove-img {
+.button.delete .remove__img {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete .remove-img:hover {
+.button.delete .remove__img:hover {
   transform: rotatez(0);
 }
 
