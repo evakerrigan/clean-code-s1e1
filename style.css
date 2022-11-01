@@ -16,10 +16,12 @@
 .header .more-inf {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
-  .header { text-align: center;
-}
+
+  .header {
+    text-align: center;
+  }
+
 }
 .main {
   display: block;
@@ -56,6 +58,7 @@
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title,
 .label[for="new-task"] {
@@ -97,7 +100,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -105,7 +107,6 @@
 .item > * {
   vertical-align: middle;
 }
-
 .item > .input[type="checkbox"] {
   margin: 0 10px;
 }
@@ -131,19 +132,16 @@
 .list#completed-tasks .label {
   text-decoration: line-through
   color: #888;
-
 }
 
 /* Edit Task */
 .list .item .input[type=text] {
   display:none
 }
-
 .list .item.edit-mode .input[type=text] {
   display:inline-block;
   width:224px
 }
-
 .list .item.edit-mode .label {
   display:none;
 }
